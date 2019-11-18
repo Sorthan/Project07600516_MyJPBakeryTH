@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Project My JPBakery TH</string>
+    <string name="logintext">LOGIN</string>
+    <string name="email">Email or Username</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register new user</string>
+    <string name="NAME">FIRSTNAME</string>
+    <string name="LASTNAME">LASTNAME</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="Jan">January</string>
+    <string name="Feb">February</string>
+    <string name="Mar">March</string>
+    <string name="Apr">April</string>
+    <string name="May">May</string>
+    <string name="Jun">June</string>
+    <string name="Jul">July</string>
+    <string name="Aug">August</string>
+    <string name="Sep">September</string>
+    <string name="Oct">October</string>
+    <string name="Nov">November</string>
+    <string name="Dec">December</string>
+    <string name="Yourname">YOUR NAME :</string>
+    <string name="Yourlastname">YOUR LASTNAME :</string>
+    <string name="Yourbirthdate">YOUR BIRTHDAYE :</string>
+    <string name="Yourmonth">YOUR BIRTHMONTH :</string>
+    <string name="Menu">BAKERY MENU</string>
+    <string name="Logout">LOGOUT</string>
+    <string name="edit">EDIT USERNAME OR PASSWORD</string>
+</resources>

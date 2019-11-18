@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/UserBackground"
+    tools:context=".PersonalInterfaceActivity">
+
+    <Button
+        android:id="@+id/logout_user_button"
+        android:layout_width="380dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edit_user_button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_user_button"
+        app:layout_constraintTop_toBottomOf="@+id/edit_user_button" />
+
+    <Button
+        android:id="@+id/edit_user_button"
+        android:layout_width="380dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toTopOf="@+id/logout_user_button"
+        app:layout_constraintEnd_toEndOf="@+id/view_bakery_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/view_bakery_button"
+        app:layout_constraintTop_toBottomOf="@+id/view_bakery_button" />
+
+    <TextView
+        android:id="@+id/monthinput_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#80000000"
+        android:text="Hello"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/month_text"
+        app:layout_constraintEnd_toEndOf="@+id/dayInput_text"
+        app:layout_constraintStart_toStartOf="@+id/dayInput_text"
+        app:layout_constraintTop_toBottomOf="@+id/dayInput_text" />
+
+    <TextView
+        android:id="@+id/dayInput_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#80000000"
+        android:text="Hello"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/day_text"
+        app:layout_constraintEnd_toEndOf="@+id/lastnameInput_text"
+        app:layout_constraintStart_toStartOf="@+id/lastnameInput_text"
+        app:layout_constraintTop_toBottomOf="@+id/lastnameInput_text" />
+
+    <TextView
+        android:id="@+id/lastnameInput_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#80000000"
+        android:text="Hello"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/day_text"
+        app:layout_constraintEnd_toEndOf="@+id/nameInput_text"
+        app:layout_constraintStart_toStartOf="@+id/nameInput_text"
+        app:layout_constraintTop_toBottomOf="@+id/nameInput_text" />
+
+    <TextView
+        android:id="@+id/nameInput_text"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:background="#80000000"
+        android:text="Hello"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/name_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/name_text"
+        app:layout_constraintTop_toTopOf="@+id/name_text" />
+
+    <TextView
+        android:id="@+id/month_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Yourmonth"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/day_text"
+        app:layout_constraintTop_toBottomOf="@+id/day_text" />
+
+    <TextView
+        android:id="@+id/day_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Yourbirthdate"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/lastname_text"
+        app:layout_constraintTop_toBottomOf="@+id/lastname_text" />
+
+    <TextView
+        android:id="@+id/lastname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Yourlastname"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/name_text"
+        app:layout_constraintTop_toBottomOf="@+id/name_text" />
+
+    <ImageView
+        android:id="@+id/title_layer"
+        android:layout_width="0dp"
+        android:layout_height="107dp"
+        android:background="@color/myBackground"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cake_logo"
+        tools:srcCompat="@drawable/cake_logo" />
+
+    <TextView
+        android:id="@+id/welcom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:text="--WELCOME --"
+        android:textColor="@color/colorPrimaryDark"
+        android:textIsSelectable="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_layer" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/Yourname"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcom_text" />
+
+    <Button
+        android:id="@+id/view_bakery_button"
+        android:layout_width="380dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/Menu"
+        app:layout_constraintBottom_toTopOf="@+id/edit_user_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monthinput_text"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

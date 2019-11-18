@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project My JPBakery TH</string>
+    <string name="logintext">เข้าสู่ระบบ</string>
+    <string name="Password">รหัสผ่าน</string>
+    <string name="email">อีเมล หรือ บัญชีผู้ใช้</string>
+    <string name="Register">สมัครสมาชิกเข้าใช้ระบบ</string>
+    <string name="NAME">ชื่อ</string>
+    <string name="LASTNAME">นามสกุล</string>
+    <string name="day">วัน</string>
+    <string name="month">เดือน</string>
+    <string name="year">ปี</string>
+    <string name="Jan">มกราคม</string>
+    <string name="Jul">กรกฎาคม</string>
+    <string name="Jun">มิถุนายน</string>
+    <string name="Mar">มีนาคม</string>
+    <string name="May">พฤษภาคม</string>
+    <string name="Nov">พฤศจิกายน</string>
+    <string name="Oct">ตุลาคม</string>
+    <string name="Sep">กันยายน</string>
+    <string name="Apr">เมษายน</string>
+    <string name="Aug">สิงหาคม</string>
+    <string name="Dec">ธันวาคม</string>
+    <string name="Feb">กุมภาพันธ์</string>
+    <string name="Yourname">"ชื่อของคุณ : "</string>
+    <string name="Yourlastname">นามสกุลของคุณ :</string>
+    <string name="Yourbirthdate">วันเกิดของคุณ :</string>
+    <string name="Yourmonth">เดือนเกิดของคุณ :</string>
+    <string name="Menu">เมนูเบเกอรี่</string>
+    <string name="Logout">ออกจากระบบ</string>
+    <string name="edit">แก้ไขบัญชีผู้ใช้หรือรหัสผ่าน</string>
+</resources>
